@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import TaskStore from "../model/TaskStore";
-import TaskController from "../controller/TaskController";
+import TaskStore from "../model/taskStore";
+import TaskController from "../controller/taskController";
 
 function App() {
   const [inputValue, setInputValue] = useState("");
